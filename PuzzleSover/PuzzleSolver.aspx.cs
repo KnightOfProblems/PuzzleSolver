@@ -9,10 +9,10 @@ namespace PuzzleSover
 {
     public partial class PuzzleSolver : System.Web.UI.Page
     {
-        private static string consumerKey = "8UF8cUFvKkzO6RQocu2xRg";
-        private static string consumerSecret = "0v8OLzuICT0rCCsyre19UHAIQFDwAZp93AGWaXjSbY";
-        private static string accessToken = "280593007-ykfLC3xQZZW0WCBDDhizAAbKMTK3XjwarAhjLh3v";
-        private static string accessTokenSecret = "U5mRWa8pG0aqRWZTVWktG8YDqedKaExQbwjlN75XP2z9J";
+        private static string consumerKey = "CONSUMER_KEY";
+        private static string consumerSecret = "CONSUMER_SECRET";
+        private static string accessToken = "ACCESS_TOKEN";
+        private static string accessTokenSecret = "ACCESS_TOKEN_SECRET";
         public List<PuzzleData> tweetsUserName; 
         public static string authorUrl;
         public static int maxCount;
